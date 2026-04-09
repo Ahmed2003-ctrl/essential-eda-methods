@@ -83,10 +83,10 @@ Categorical hygiene:
 - str.strip(), str.lower(), mapping rare levels to “Other”.
 
 Datetime features:
-.dt.year, .dt.month, .dt.dayofweek for temporal patterns.
+- .dt.year, .dt.month, .dt.dayofweek for temporal patterns.
 
-Target-aware checks:
-Leakage detection and class balance verification.
+Target-aware checks:  
+- Leakage detection and class balance verification.
 
 # Minimal EDA Checklist
 1. Load data and peek (head, sample).
